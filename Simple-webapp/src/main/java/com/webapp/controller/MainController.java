@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 	
-	@RequestMapping("/sam")
+	@RequestMapping("/wish")
 	public String wish() {
 		
-		return "sam";
+		return "wish";
 	}
 
 }
